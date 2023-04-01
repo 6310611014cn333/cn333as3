@@ -89,7 +89,7 @@ fun MultiGameScreen(
                     if (name == "Quiz")
                         QuizGameScreen()
                     if (name == "PairPicture")
-//                        PairPictureGameScreen()
+//                        PairingGameScreen()
                         QuizGameScreen()
                 }
             }
