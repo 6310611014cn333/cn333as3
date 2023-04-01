@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Multi-Game</string>
+    <string name="game">game</string>
+    <string name="back_button">Back</string>
+    <string name="pick_game">Pick a Game</string>
+
+    //Number Guessing Game
+    <string name="number_guessing">Number Guessing Game</string>
+    <string name="your_guess">Your Guess</string>
+    <string name="game_description">Try to guess the number I\'m thinking of 1 - 1000 and press done</string>
+
+    //Quiz Game
+    <string name="quiz">Quiz Game</string>
+    <string name="question_count">%d of 10 questions</string>
+    <string name="score">Score: %d</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="you_scored">You scored: %d</string>
+    <string name="exit">Exit</string>
+
+    //Pair Game
+    <string name="pair_picture">Pairing Game</string>
+
+    <string name="play_again">Play Again</string>
+</resources>
