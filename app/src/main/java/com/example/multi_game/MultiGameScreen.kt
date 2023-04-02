@@ -14,6 +14,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.example.multi_game.ui.MatchingGameScreen
 import com.example.multi_game.ui.PickGameScreen
 import com.example.multi_game.ui.QuizGameScreen
 import com.example.multi_game.ui.theme.NumberGuessingGameScreen
@@ -23,7 +24,7 @@ enum class MultiGameScreen(@StringRes val title: Int) {
     Game(title = R.string.game),
     NumberGuessing(title = R.string.number_guessing),
     Quiz(title = R.string.quiz),
-    PairPicture(title = R.string.pair_picture),
+    MatchingGame(title = R.string.matching_game),
 }
 
 @Composable
@@ -88,9 +89,8 @@ fun MultiGameScreen(
                         NumberGuessingGameScreen()
                     if (name == "Quiz")
                         QuizGameScreen()
-                    if (name == "PairPicture")
-//                        PairingGameScreen()
-                        QuizGameScreen()
+                    if (name == "MatchingGame")
+                        MatchingGameScreen()
                 }
             }
         }

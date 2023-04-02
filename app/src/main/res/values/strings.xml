@@ -17,8 +17,8 @@
     <string name="you_scored">You scored: %d</string>
     <string name="exit">Exit</string>
 
-    //Pair Game
-    <string name="pair_picture">Pairing Game</string>
+    //Matching Game
 
     <string name="play_again">Play Again</string>
+    <string name="matching_game">Matching Game</string>
 </resources>
